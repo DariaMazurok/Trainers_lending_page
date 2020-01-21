@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20170731 at Fri Aug 23 17:30:10 2019
+ By Aleksey,,,
+Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)
+</metadata>
+<defs>
+<font id="BebasNeue-Regular" horiz-adv-x="160" >
+  <font-face 
+    font-family="Bebas Neue"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 11 6 6 2 2 2 5 2 1"
+    ascent="800"
+    descent="-200"
+    bbox="41 0 684 700"
+    underline-thickness="80"
+    underline-position="-160"
+    unicode-range="U+0020-2116"
+  />
+<missing-glyph horiz-adv-x="738" 
+d="M54 700h630v-700h-630v700zM601 650h-464l232 -263zM336 350l-232 263v-526zM634 613l-232 -263l232 -263v526zM601 50l-232 263l-232 -263h464z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="738" 
+d="M54 700h630v-700h-630v700zM601 650h-464l232 -263zM336 350l-232 263v-526zM634 613l-232 -263l232 -263v526zM601 50l-232 263l-232 -263h464z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" 
+ />
+    <glyph glyph-name="space" unicode=" " 
+ />
+    <glyph glyph-name="uni2116" unicode="&#x2116;" horiz-adv-x="661" 
+d="M41 700h138l82 -429h2v429h93v-700h-113l-106 517h-2v-517h-94v700zM440.5 138q-27.5 29 -27.5 82v155q0 53 27.5 82t78.5 29t78.5 -29t27.5 -82v-155q0 -53 -27.5 -82t-78.5 -29t-78.5 29zM555 216v163q0 43 -36 43q-18 0 -27 -10t-9 -33v-163q0 -23 9 -33t27 -10
+q36 0 36 43zM413 68h212v-68h-212v68z" />
+  </font>
+</defs></svg>

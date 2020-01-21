@@ -1,0 +1,316 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/subset-BebasNeue-Regular.eot');
+    src: url('../fonts/subset-BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/subset-BebasNeue-Regular.woff2') format('woff2'),
+    url('../fonts/subset-BebasNeue-Regular.woff') format('woff'),
+    url('../fonts/subset-BebasNeue-Regular.ttf') format('truetype'),
+    url('../fonts/subset-BebasNeue-Regular.svg#BebasNeue-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/subset-Metropolis-Regular.eot');
+    src: url('../fonts/subset-Metropolis-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/subset-Metropolis-Regular.woff2') format('woff2'),
+    url('../fonts/subset-Metropolis-Regular.woff') format('woff'),
+    url('../fonts/subset-Metropolis-Regular.ttf') format('truetype'),
+    url('../fonts/subset-Metropolis-Regular.svg#Metropolis-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    font-family: Metropolis, sans-serif;
+    max-width: 1220px;
+}
+
+.container {
+    background-image: url("../images/background_header.png");
+    background-size: cover;
+    padding-bottom: 22px;
+}
+
+.search input {
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.semiopacity {
+    background-image: url("../images/bg_transparent.png");
+    background-size: cover;
+    padding: 25px 25px 20px;
+}
+
+.form a img {
+    float: left;
+}
+
+.form form, .shopping_card, .login, .register {
+    display: inline-block;
+    float: right;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+input:first-of-type {
+    color: #959595;
+    width: 172px;
+    padding-left: 15px;
+    height: 45px;
+    border: none;
+}
+
+input:nth-of-type(2) {
+    width: 45px;
+    height: 45px;
+    border: none;
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-indent: -9999px;
+    background-color: white;
+    margin-left: -5px;
+    margin-right: 26px;
+}
+
+.form a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.register {
+    background-color: #fa090a;
+    margin-right: 0;
+    padding: 0 16px;
+    min-width: 138px;
+}
+
+.shopping_card {
+    background-color: #252525;
+    padding: 0 22px 0 15px;
+    min-width: 133px;
+    margin-right: 26px;
+}
+
+.login {
+    background-color: #464646;
+    padding: 0 44px;
+    min-width: 82px;
+    margin-right: 26px;
+}
+
+.form:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+nav {
+    border-top: #464646 3px solid;
+    padding-top: 22px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 15px 10px;
+    border-bottom: solid 3px transparent;
+    transition: 0.4s;
+    min-width: 90px;
+    font-family: 'BebasNeueRegular';
+    font-weight: lighter;
+    font-style: normal;
+}
+
+nav ul li:first-of-type {
+    padding-left: 0;
+}
+
+nav ul li:last-of-type {
+    padding-right: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav ul li:hover, .active {
+    border-bottom: solid 5px #ff0000;
+}
+
+div.about {
+    margin: 0 25px 0;
+}
+
+.about h5 {
+    text-transform: uppercase;
+    font-size: 51px;
+    text-align: center;
+    line-height: 0;
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    padding: 70px 0 34px;
+    color: white;
+    border-bottom: #ff0000 3px solid;
+}
+
+article {
+    background-color: white;
+    height: 1290px;
+}
+
+.social a, .social img {
+    height: 30px;
+    width: 30px;
+    background-color: #fa090a;
+    font-size: 20px;
+    color: black;
+    line-height: 35px;
+    text-align: center;
+    float: right;
+}
+
+header div nav div.social a {
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+
+.social_footer div.social a {
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+div.social a:last-of-type {
+    margin-left: 0;
+}
+
+div.social a:first-of-type {
+    margin-right: 0;
+}
+
+ul {
+    float: left;
+}
+
+nav:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.subscribe {
+    background-color: #010006;
+    padding: 70px 10px 50px;
+    text-align: center;
+    color: white;
+}
+
+.subscribe p {
+    text-transform: uppercase;
+    font-family: Metropolis, sans-serif;
+    font-weight: lighter;
+    font-size: 19px;
+    max-width: 905px;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.subscribe form input {
+    height: 45px;
+    width: 390px;
+    padding-left: 44px;
+    color: #959595;
+    font-size: 17px;
+    font-family: Metropolis, sans-serif;
+    text-transform: uppercase;
+    border-radius: 2px;
+
+}
+
+.subscribe form button {
+    height: 50px;
+    width: 310px;
+    background-color: #ff0000;
+    text-align: center;
+    font-family: Metropolis, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    margin-left: 35px;
+    border-radius: 2px;
+    vertical-align: center;
+}
+
+footer {
+    background-color: #252525;
+    padding: 50px 25px 60px;
+    border: #48474b solid 1px;
+}
+
+.social_footer {
+    float: left;
+}
+
+.social_footer .social a, .social_footer .social img {
+    height: 43px;
+    width: 43px;
+    background-color: #fa090a;
+    font-size: 30px;
+    color: black;
+    line-height: 47px;
+    text-align: center;
+}
+
+.social_footer .img img {
+    margin-bottom: 45px;
+}
+
+footer:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.about_us ul li {
+    color: white;
+    font-family: Metropolis, sans-serif;
+    text-transform: uppercase;
+    line-height: 35px;
+    list-style-type: none;
+}
+
+.about_us ul {
+    margin-right: 50px;
+    float: right;
+}
+
+.empty_nothing {
+    background-color: #010006;
+    padding: 31px 25px;
+}
+
