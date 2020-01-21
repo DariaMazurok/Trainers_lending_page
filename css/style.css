@@ -266,6 +266,10 @@ nav:after {
     vertical-align: center;
 }
 
+.subscribe form button:hover {
+    cursor: pointer;
+}
+
 footer {
     background-color: #252525;
     padding: 50px 25px 60px;
